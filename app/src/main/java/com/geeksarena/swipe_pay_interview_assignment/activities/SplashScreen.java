@@ -1,8 +1,10 @@
-package com.geeksarena.swipe_pay_interview_assignment;
+package com.geeksarena.swipe_pay_interview_assignment.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.geeksarena.swipe_pay_interview_assignment.R;
 
 public class SplashScreen extends AppCompatActivity {
 
