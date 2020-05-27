@@ -1,0 +1,2 @@
+rootProject.name='swipe-pay-interview-assignment'
+include ':app'
