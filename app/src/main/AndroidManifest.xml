@@ -11,7 +11,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".activities.DashboardHolderActivity" />
         <activity android:name=".activities.AuthHolderActivity" />
-        <activity android:name=".activities.SplashScreen">
+        <activity android:name=".activities.SplashScreen"
+            android:theme="@style/EmptyActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
