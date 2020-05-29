@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#7A7777"
+    android:background="#EFE9E9"
     tools:context=".activities.ShopsActivity">
 
     <LinearLayout
@@ -118,7 +118,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:background="#FFF"
+        android:background="#F6F0F0"
         app:itemIconTint="@color/colorPrimary"
         app:itemTextColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -130,6 +130,7 @@
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#fff"
         android:layout_marginEnd="48dp"
         android:layout_marginBottom="100dp"
         android:clickable="true"

@@ -21,8 +21,8 @@
     </style>
 
     <style name="shopsTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <item name="colorPrimary">#7A7777</item>
-        <item name="colorPrimaryDark">#7A7777</item>
+        <item name="colorPrimary">#EFE9E9</item>
+        <item name="colorPrimaryDark">#EFE9E9</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
