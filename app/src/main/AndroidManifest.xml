@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.TransactionsActivity"></activity>
-        <activity android:name=".activities.ShopsActivity" />
+        <activity android:name=".activities.TransactionsActivity"/>
+        <activity android:name=".activities.ShopsActivity"
+            android:theme="@style/shopsTheme"/>
         <activity
             android:name=".activities.DashboardHolderActivity"
             android:theme="@style/homeTheme" />
