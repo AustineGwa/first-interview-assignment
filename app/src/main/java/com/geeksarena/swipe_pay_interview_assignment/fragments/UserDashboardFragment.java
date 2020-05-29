@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.geeksarena.swipe_pay_interview_assignment.R;
+import com.geeksarena.swipe_pay_interview_assignment.activities.DashboardHolderActivity;
 import com.geeksarena.swipe_pay_interview_assignment.activities.ShopsActivity;
 import com.geeksarena.swipe_pay_interview_assignment.activities.TransactionsActivity;
 
@@ -35,7 +36,10 @@ public class UserDashboardFragment extends Fragment {
         View view =  inflater.inflate(R.layout.fragment_user_dashboard, container, false);
 
         payments = view.findViewById(R.id.payments_card);
-        payments.setOnClickListener(v -> showFragment(new PaymentsFragment()));
+        payments.setOnClickListener(v -> {
+            DashboardHolderActivity activity = (DashboardHolderActivity) getActivity();
+            activity.showFragment(new PaymentsFragment(), "Payments_frag");
+        });
         shops = view.findViewById(R.id.shops_card);
         shops.setOnClickListener(v -> showActivity(ShopsActivity.class));
         transactions = view.findViewById(R.id.transactions_card);
@@ -53,11 +57,11 @@ public class UserDashboardFragment extends Fragment {
     }
 
 
-    private void showFragment(Fragment fragment) {
-
-        FragmentManager fm = getActivity().getSupportFragmentManager();
-        FragmentTransaction transaction = fm.beginTransaction();
-        transaction.replace(R.id.dashboard_frame, fragment);
-        transaction.commit();
-    }
+//    private void showFragment(Fragment fragment) {
+//
+//        FragmentManager fm = getActivity().getSupportFragmentManager();
+//        FragmentTransaction transaction = fm.beginTransaction();
+//        transaction.replace(R.id.dashboard_frame, fragment);
+//        transaction.commit();
+//    }
 }
