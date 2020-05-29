@@ -13,9 +13,9 @@ import com.geeksarena.swipe_pay_interview_assignment.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class statistics extends Fragment {
+public class PaymentsFragment extends Fragment {
 
-    public statistics() {
+    public PaymentsFragment() {
         // Required empty public constructor
     }
 
