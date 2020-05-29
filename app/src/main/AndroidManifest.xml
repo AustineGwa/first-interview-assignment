@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".activities.DashboardHolderActivity"
-            android:theme="@style/EmptyActionBar"/>
+            android:theme="@style/homeTheme"/>
         <activity android:name=".activities.AuthHolderActivity"
             android:theme="@style/EmptyActionBar"/>
         <activity android:name=".activities.SplashScreen"

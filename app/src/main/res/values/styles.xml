@@ -10,4 +10,6 @@
 
     <style name="EmptyActionBar" parent="Theme.AppCompat.Light.NoActionBar" />
 
+    <style name="homeTheme" parent="Theme.MaterialComponents.Light.NoActionBar"/>
+
 </resources>
