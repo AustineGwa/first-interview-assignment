@@ -86,4 +86,17 @@
         android:textSize="15dp"
         android:text="A summary of how your business is doing"/>
 
+    <LinearLayout
+        app:layout_constraintTop_toBottomOf="@+id/overvie_header_desc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/graph"/>
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

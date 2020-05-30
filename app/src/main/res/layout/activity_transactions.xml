@@ -99,6 +99,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:textStyle="bold"
+                android:textColor="#000"
                 android:text="Ksh 52, 070.00"
                 android:fontFamily="sans-serif-black"/>
 
